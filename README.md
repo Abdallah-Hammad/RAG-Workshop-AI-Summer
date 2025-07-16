@@ -1,0 +1,16 @@
+## Setup
+### For windows
+Open a PowerShell terminal, navigate to your project's root directory, and run the script:
+
+    setup/windows_setup.sh
+
+
+### For Unix (macos/Linux)
+Make the script executable by running the following command in your terminal:
+
+    chmod +x setup.sh
+
+Run the script from your project's root directory:
+
+    setup/unix_setup.sh
+
