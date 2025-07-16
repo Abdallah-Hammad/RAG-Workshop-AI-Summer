@@ -24,4 +24,4 @@ uv venv
 uv sync
 
 Write-Host "Setup complete. Virtual environment is ready and dependencies are installed."
-Write-Host "To activate the virtual environment, run: .\.venv\Scripts\Activate.ps1"
+Write-Host "To activate the virtual environment, run: .\.venv\Scripts\activate"
