@@ -20,8 +20,11 @@ if (-not (Command-Exists "uv")) {
 
 # --- Create a virtual environment and install packages ---
 Write-Host "Creating virtual environment and syncing dependencies..."
-uv venv
-uv sync
+# uv venv
+# uv sync
+
+python -m venv .venv
+.\.venv\Scripts\python -m pip install -r requirements.txt
 
 Write-Host "Setup complete. Virtual environment is ready and dependencies are installed."
 Write-Host "To activate the virtual environment, run: .\.venv\Scripts\activate"
