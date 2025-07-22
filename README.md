@@ -1,12 +1,16 @@
 ## Setup
 ### For windows
-Open a PowerShell terminal, navigate to your project's root directory, and run the script:
+Open a command line terminal, navigate to your project's root directory, and write:
 
-    setup/windows_setup.sh
+    python -n venv .venv
 
 To activate the environment, Run:
 
     .\.venv\Scripts\activate
+
+Then, install the requirements using:
+
+    pip install -r requirements.txt
 
 ### For Unix (macos/Linux)
 Make the script executable by running the following command in your terminal:
